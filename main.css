@@ -17,6 +17,10 @@
 	display: inline;
 }
 
+.nav .pull-right {
+	margin-right: 0;
+}
+
 .nav .container {
 	position: fixed;
 	padding-left: 75px;

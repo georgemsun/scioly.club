@@ -44,7 +44,7 @@
 }
 
 .login .container {
-	background-color: rgba(255, 255, 255, 1);
+	background-color: rgba(255, 255, 255, 0.6);
 	margin-left: auto;
 	margin-right: auto;
 	width: 500px;
@@ -66,7 +66,7 @@
 	width: 350px;
 	height: 45px;
 	background: transparent;
-	border: 1px solid rgba(0, 0, 0, 0.6);
+	border: 1px solid rgba(255, 255, 255, 0.6);
 	border-radius: 2px;
 	color: #fff;
 	font-family: 'Century Gothic', Corbel, Arial;

@@ -94,9 +94,9 @@ img.grayscale {
 }
 
 img.grayscale:hover {
+	opacity: 1.0;
 	filter: none;
 /*	-webkit-filter: grayscale(0%); */
-	opacity: 1;
 }
 
 .sponsors {

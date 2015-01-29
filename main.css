@@ -83,7 +83,7 @@ img.grayscale {
 	filter: gray; /* IE6-9 */
 	-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
 	height: 100px;
-	padding: 15px 20px 0px 20px;
+	padding: 5px 20px 0px 20px;
 	display: inline-block;
 	display: inline;
 }

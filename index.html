@@ -2,9 +2,34 @@
 	<head>
 		<title>Interlake Science Olympiad</title>
 		
+		<meta name="google-site-verification" content="0wCiNnQMUBwR78oJJYGrxM4q6R_3UoHOzVk4X7pnf_A" />
+
 		<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
 		<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
 		<link rel="stylesheet" href="main.css">
+
+		<!--GOOGLE MAP-->
+		<style>
+			#map-canvas {
+				width: 49%;
+				height: 30%;
+			}
+		</style>
+		<script src="https://maps.googleapis.com/maps/api/js"></script>
+		<script>
+			function initialize() {
+				var mapCanvas = document.getElementById('map-canvas');
+				var mapOptions = {
+					center: new google.maps.LatLng(47.629266, -122.123456),
+					zoom: 15,
+					mapTypeId: google.maps.MapTypeId.ROADMAP
+				}
+				var map = new google.maps.Map(mapCanvas, mapOptions)
+			}
+			google.maps.event.addDomListener(window, 'load', initialize);
+		</script>
+		<!--GOOGLE MAP END-->
+  </head>
 		
 		<!--TAB LOGO-->
 		<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
@@ -78,6 +103,8 @@
 			<div class="container">
 				<h3>Contact</h3>
 				<p>Email us at <a href="mailto:interlakescienceolympiad@gmail.com">interlakescienceolympiad@gmail.com</a>. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+				<!--<div id="map-canvas" class="col-md-6"></div>-->
 			</div>
 		</div>
 		

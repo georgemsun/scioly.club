@@ -1,10 +1,12 @@
 <html>
 	<head>
 		<title>Interlake Science Olympiad</title>
+		
 		<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
 		<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
-		<link rel="stylesheet" href="https://raw.githubusercontent.com/georgesun/interlakescienceolympiad/gh-pages/main.css">
+		<link rel="stylesheet" href="main.css">
 		
+		<!--TAB LOGO-->
 		<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 		<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -28,42 +30,60 @@
 			<div class="background"></div>
 		</div>		
 		
-		<div class="nav">
+		<div class="nav" id="nav">
 			<div class="container">
 				<ul class="pull-left">
-					<li><a href="http://scioly.club/">Home</a></li>
-					<li><a href="news">News</a></li>
-					<li><a href="invitational">Invitational</a></li>
-					<li><a href="contact">Contact</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#news">News</a></li>
+					<li><a href="#sponsors">Sponsors</a></li>
+					<li><a href="#contact">Contact</a></li>
 				</ul>
 				<ul class="pull-right">
-					<li><a href="login">Login</a></li>
+					<li><a href="login.html">Login</a></li>
 				</ul>
 			</div>
 		</div>
-		
+
 		<div class="tagline">
 			<h1>Interlake Science Olympiad</h1>
 		</div>
 		
-		<div class="about">
+		<div class="about" id="about">
 			<div class="container">
 				<h3>About</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+
+		<div class="news" id="news">
+			<div class="container">
+				<h3>News</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+
+		<div class="sponsors" id="sponsors">
+			<div class="container">
 				<h3>Sponsors</h3>
-				<div class="sponsors">
-					<a href="http://www.bellevueschoolsfoundation.org/"><img class="grayscale" src="https://cloud.githubusercontent.com/assets/7704722/5938369/278899f2-a6af-11e4-8126-45177924d055.jpeg"></a>				
-					<a href="https://www.servocity.com/"><img class="grayscale" src="https://cloud.githubusercontent.com/assets/7704722/5938211/98f8ffde-a6ad-11e4-9bc3-e6689598be0f.jpg"></a>
-					<a href="https://www.3dhubs.com/"><img class="grayscale" src="https://cloud.githubusercontent.com/assets/7704722/5938212/98f97374-a6ad-11e4-82bc-f6c580490219.png"></a>
-					<a href="http://peaksfrozenyogurt.com/"><img class="grayscale" id="peaks" src="https://cloud.githubusercontent.com/assets/7704722/5938210/98f7bc5a-a6ad-11e4-81cd-11f0dc2a617c.png"></a>
-				</div>
+				<!--BSF--><a href="http://www.bellevueschoolsfoundation.org/"><img class="fade" src="https://cloud.githubusercontent.com/assets/7704722/5938369/278899f2-a6af-11e4-8126-45177924d055.jpeg"></a>
+				<!--SERVOCITY--><a href="https://www.servocity.com/"><img class="fade" src="https://cloud.githubusercontent.com/assets/7704722/5938211/98f8ffde-a6ad-11e4-9bc3-e6689598be0f.jpg"></a>
+				<!--3DHUBS--><a href="https://www.3dhubs.com/"><img class="fade" src="https://cloud.githubusercontent.com/assets/7704722/5938212/98f97374-a6ad-11e4-82bc-f6c580490219.png"></a>
+				<!--PEAKS--><a href="http://peaksfrozenyogurt.com/"><img class="fade" id="peaks" src="https://cloud.githubusercontent.com/assets/7704722/5938210/98f7bc5a-a6ad-11e4-81cd-11f0dc2a617c.png"></a>
+			</div>
+		</div>
+
+		<div class="contact" id="contact">
+			<div class="container">
+				<h3>Contact</h3>
+				<p>Email us at <a href="mailto:interlakescienceolympiad@gmail.com">interlakescienceolympiad@gmail.com</a>. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</div>
 		</div>
 		
-		<div class="footnotes">
+		<div class="footer" id="footer">
 			<div class="container">
-				<p></p>
+				<p>&copy; Interlake Science Olympiad. Last updated 31 Jan 2015.</p>
 			</div>
 		</div>
 	</body>

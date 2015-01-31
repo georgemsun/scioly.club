@@ -82,17 +82,17 @@
 .about {
 	background-color: white;
 	padding-top: 10px;
-	padding-bottom: 0px;
+	padding-bottom: 30px;
 }
 
 .news {
 	background-color: white;
-	padding-bottom: 0px;
+	padding-bottom: 30px;
 }
 
 .sponsors {
 	background-color: white;
-	padding-bottom: 5px;
+	padding-bottom: 30px;
 }
 
 .sponsors .container h3 {
@@ -101,7 +101,11 @@
 
 .contact {
 	background-color: white;
-	padding-bottom: 40px;
+	padding-bottom: 30px;
+}
+
+.space {
+	height: 3%;
 }
 
 img.fade {

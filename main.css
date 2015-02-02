@@ -1,9 +1,14 @@
+iframe, object {
+	
+	width: 100%;
+	height: 80%;
+}
 
 table, tbody {
 	border-collapse: separate;
 	border-spacing: 1px;
 	table-layout: fixed;
-	height: 90%;
+	height: 80%;
 	width: 100%;
 	overflow-y: scroll;
 	overflow-x: scroll;

@@ -238,7 +238,7 @@ img.fade:hover {
 /* MEMBERS.HTML ONLY */
 iframe, object {
 	height: 80%;
-	width: calc(80% - 80px);
+	width: 100%;
 }
 
 table, tbody {
@@ -246,7 +246,7 @@ table, tbody {
 	border-spacing: 1px;
 	table-layout: fixed;
 	height: 80%;
-	width: 80%;
+	width: 100%;
 	overflow-y: scroll;
 	overflow-x: scroll;
 	display: block;

@@ -82,17 +82,17 @@
 
 .about {
 	background-color: white;
-	padding-bottom: 15px;
+	padding-bottom: 10px;
 }
 
 .news {
 	background-color: white;
-	padding-bottom: 15px;
+	padding-bottom: 10px;
 }
 
 .sponsors {
 	background-color: white;
-	padding-bottom: 15px;
+	padding-bottom: 10px;
 }
 
 .sponsors .container h3 {
@@ -132,7 +132,7 @@ img.fade:hover {
 }
 
 .sponsors {
-	text-align: center; /* centers logo */
+	text-align: center; /* centers logos */
 }
 
 .footer {

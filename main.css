@@ -245,7 +245,7 @@ table, tbody {
 	border-collapse: separate;
 	border-spacing: 1px;
 	table-layout: fixed;
-	height: 80%;
+	height: 100%;
 	width: 100%;
 	overflow-y: scroll;
 	overflow-x: scroll;

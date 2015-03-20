@@ -8,6 +8,22 @@
 		<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
 		<link rel="stylesheet" href="main.css">
 
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="smoothscroll.js"></script>
+
+		<!--SHOW ON CLICK-->
+		<script language="javascript">
+			function toggle() {
+				var ele = document.getElementById("toggleText");
+				if(ele.style.display == "block") {
+						ele.style.display = "none";
+				}
+				else {
+					ele.style.display = "block";
+				}
+			}
+		</script>
+
 		<!--GOOGLE MAP-->
 		<style>
 			#map-canvas {
@@ -56,10 +72,10 @@
 		<div class="nav" id="nav">
 			<div class="container">
 				<ul class="pull-left">
-					<li><a href="#about">About</a></li>
-					<li><a href="#news">News</a></li>
-					<li><a href="#sponsors">Sponsors</a></li>
-					<li><a href="#contact">Contact</a></li>
+					<li><a href="#about" class="smoothScroll">About</a></li>
+					<li><a href="#news" class="smoothScroll">News</a></li>
+					<li><a href="#sponsors" class="smoothScroll">Sponsors</a></li>
+					<li><a href="#contact" class="smoothScroll">Contact</a></li>
 				</ul>
 				<ul class="pull-right">
 					<li><a href="login.html">Login</a></li>
@@ -74,8 +90,9 @@
 		<div class="about" id="about">
 			<div class="container">
 				<h3>About</h3>
-				<p>We are a club at Interlake High School that competes in the national <a href="http://soinc.org/">Science Olympiad</a> competition. Our club members explore topics in science, technology, engineering, and math outside of regular school curriculum by studying a wide range of topics, engineering devices, and practicing lab techniques to prepare for competitions against high schools from all over the state. By joining an Interlake Science Olympiad team, our members are able to create a knowledge base that will prepare them for careers in STEM fields.</p>
-				<p>Our teams compete in <a href="http://washingtonscienceolympiad.com/">Washington state</a> at the Northwest Regional competition, and this year is our fourth year qualifying for the state competition, competing as one of the top 20 teams in the state.</p>
+				<p>We are a team of students at <a href="http://www.bsd405.org/interlake/" target="_blank">Interlake High School</a> in Bellevue, Washington that competes in the national <a href="http://soinc.org/" target="_blank">Science Olympiad</a> competition.</p>
+				<p>Our club members explore topics in science, technology, engineering, and math outside of regular school curriculum by studying a wide range of topics, engineering devices, and practicing lab techniques to prepare for competitions against high schools from all over the state. By joining an Interlake Science Olympiad team, our members are able to create a knowledge base that will prepare them for careers in STEM fields.</p>
+				<p>Our teams compete in Washington state at the <a href="http://washingtonscienceolympiad.com/" target="_blank">Northwest Regional Tournament</a>, and this year is our fourth consecutive year qualifying for the state competition, competing as one of the top 20 teams in the state.</p>
 			</div>
 		</div>
 
@@ -84,8 +101,12 @@
 		<div class="news" id="news">
 			<div class="container">
 				<h3>News</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<h4>March 07, 2015</h4>
+				<p>Interlake performs well again at their second tournament of the year, the Northwest Regional Tournament at Highline College in Des Moines, with our top team taking second place out of 22 other teams! Our second team won fifth place, which means that both teams qualify to move on to the State Tournament on April 18, also at Highline College.<p>
+				<h4>February 07, 2015</h4>
+				<p>Interlake High School starts off on the right foot at their first tournament of the year, winning the first place trophy at the Raisbeck Aviation High School Invitational, with many of our 15 members earning medals in their individual events!</p>
+				<h4>December 06, 2015</h4>
+				<p>After over a month of planning, Interlake hosted its inaugural Science Olympiad invitational tournament, with 28 teams from schools throughout Washington competing. Congratulations to Bothell High School, our tournament's champions!</p>
 			</div>
 		</div>
 
@@ -94,12 +115,79 @@
 		<div class="sponsors" id="sponsors">
 			<div class="container">
 				<h3>Sponsors</h3>
-				<!--ELITE--><a href="http://www.eliteprep.com/bellevue" target="_blank"><img class="fade" id="sponsor_elite" src="https://cloud.githubusercontent.com/assets/7704722/6746329/bda63d08-ce83-11e4-875c-4f07c476dc30.png"> </a>
-				<!--BSF--><a href="http://www.bellevueschoolsfoundation.org/" target="_blank"><img class="fade" id="sponsor_bsf" src="https://cloud.githubusercontent.com/assets/7704722/5938369/278899f2-a6af-11e4-8126-45177924d055.jpeg"></a>
+				<p style="padding-bottom: 10px">Interlake Science Olympiad is fortunate to be working with a number of incredible sponsors. Click <a href="javascript:toggle();">here</a> for information on sponsoring us.</p>
+				<!--ELITE--><a href="http://eliteprep.com/bellevue" target="_blank"><img class="fade" id="sponsor_elite" src="https://github.com/georgesun/interlakescienceolympiad/blob/gh-pages/images/sponsor_elite.png?raw=true"> </a>
+				<!--BSF--><a href="http://bellevueschoolsfoundation.org/" target="_blank"><img class="fade" id="sponsor_bsf" src="https://github.com/georgesun/interlakescienceolympiad/blob/gh-pages/images/sponsor_bsf.jpeg?raw=true"></a>
 				<p></p>
-				<!--SERVOCITY--><a href="https://www.servocity.com/" target="_blank"><img class="fade" src="https://cloud.githubusercontent.com/assets/7704722/5938211/98f8ffde-a6ad-11e4-9bc3-e6689598be0f.jpg"></a>
-				<!--3DHUBS--><a href="https://www.3dhubs.com/" target="_blank"><img class="fade" src="https://cloud.githubusercontent.com/assets/7704722/5938212/98f97374-a6ad-11e4-82bc-f6c580490219.png"></a>
-				<!--PEAKS--><a href="http://peaksfrozenyogurt.com/" target="_blank"><img class="fade" id="sponsor_peaks" src="https://cloud.githubusercontent.com/assets/7704722/5938210/98f7bc5a-a6ad-11e4-81cd-11f0dc2a617c.png"></a>
+				<!--SERVOCITY--><a href="http://servocity.com/" target="_blank"><img class="fade" src="https://github.com/georgesun/interlakescienceolympiad/blob/gh-pages/images/sponsor_actobotics.jpg?raw=true"></a>
+				<!--3DHUBS--><a href="http://3dhubs.com/" target="_blank"><img class="fade" src="https://github.com/georgesun/interlakescienceolympiad/blob/gh-pages/images/sponsor_3dhubs.png?raw=true"></a>
+				<!--PEAKS--><a href="http://peaksfrozenyogurt.com/" target="_blank"><img class="fade" id="sponsor_peaks" src="https://github.com/georgesun/interlakescienceolympiad/blob/gh-pages/images/sponsor_peaks.png?raw=true"></a>
+			</div>
+
+			<div id="toggleText" style="display: none"  class="container">
+				<div class="container" id="sponsor_table" >
+					<h4>Sponsorship Package 2014-2015</h4>
+					<p style="font-size:16px">As a club, we prepare students in topics ranging from engineering and mathematics to the life sciences and lab work. This year, along with running our club and preparing students for the annual regional and state competitions, we also organized an invitational tournament in which 28 teams of 15 students each from schools around Washington state competed.</p>
+					<p style="font-size:16px">All Science Olympiad competitions are excellent media events &#8211 last year our students were featured in the Cheney Free Press at the state tournament. We would be more than happy to positively represent your company through our performance, by mentioning you in media, and through the additional ways described below:</p>
+					<table>
+						<tr class="sponsor_tiers">
+							<th></th>
+							<th>Bronze</th>
+							<th>Silver</th>
+							<th>Platinum</th>
+						</tr>
+						<tr class="sponsor_costs">
+							<th></th>
+							<th>$100-499</th>
+							<th>$500-999</th>
+							<th>$1000+</th>
+						</tr>
+						<tr>
+							<td id="table_left">Updates on our engineering projects and competitions</td>
+							<td>&#10003</td>
+							<td>&#10003</td>
+							<td>&#10003</td>
+						</tr>
+						<tr>
+							<td id="table_left">Company logo displayed on our team website</td>
+							<td>&#10003</td>
+							<td>&#10003</td>
+							<td>&#10003</td>
+						</tr>
+						<tr>
+							<td id="table_left">Company logo displayed on our engineering projects, viewed by people around the state at tournaments</td>
+							<td></td>
+							<td>&#10003</td>
+							<td>&#10003</td>
+						</tr>
+						<tr>
+							<td id="table_left">Company logo displayed prominently on the team website</td>
+							<td></td>
+							<td>&#10003</td>
+							<td>&#10003</td>
+						</tr>
+						<tr>
+							<td id="table_left">Business is considered our team's main sponsor</td>
+							<td></td>
+							<td></td>
+							<td>&#10003</td>
+						</tr>
+						<tr>
+							<td id="table_left">Company logo printed on fliers, documents, presentations</td>
+							<td></td>
+							<td></td>
+							<td>&#10003</td>
+						</tr>
+						<tr>
+							<td id="table_left">Company logo displayed very prominently on the team website</td>
+							<td></td>
+							<td></td>
+							<td>&#10003</td>
+						</tr>
+					</table>
+					<p style="font-size:16px">We genuinely appreciate any support you can offer, and hope you can join us for our 2014-2015 season!</p>
+					<p style="text-align: right; font-size: 16px"><a href="javascript:toggle();">HIDE</a></p>
+				</div>
 			</div>
 		</div>
 
@@ -108,7 +196,7 @@
 		<div class="contact" id="contact">
 			<div class="container">
 				<h3>Contact</h3>
-				<p>Email us at <a href="mailto:interlakescienceolympiad@gmail.com">interlakescienceolympiad@gmail.com</a>. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Email us at <a href="mailto:interlakescienceolympiad@gmail.com">interlakescienceolympiad@gmail.com</a> with any questions or comments. We'll get back to you as soon as possible!</p>
 
 				<!--<div id="map-canvas" class="col-md-6"></div>-->
 			</div>

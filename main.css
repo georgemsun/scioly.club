@@ -127,7 +127,11 @@ img.fade:hover {
 /*	-webkit-filter: grayscale(0%); */
 }
 
-#peaks {
+#sponsor_elite, #sponsor_elite {
+	height: 200px;
+}
+
+#sponsor_peaks {
 	height: 130px;
 }
 

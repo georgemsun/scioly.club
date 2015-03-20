@@ -1,7 +1,7 @@
 /* BACKGROUND AND NAVIGATION */
 .jumbotron {
 	position: fixed;
-	background: url('https://cloud.githubusercontent.com/assets/7704722/5951824/38bc81bc-a721-11e4-9de6-6fcfc0c318d0.jpg');
+	background: url('https://github.com/georgesun/interlakescienceolympiad/blob/gh-pages/images/background_main.jpg?raw=true');
 	z-index: -1;
 	display: block;
 	width: 100%;
@@ -90,13 +90,25 @@
 	padding-bottom: 0px;
 }
 
+.news h3 {
+	padding-bottom: 0px;
+}
+
+.news h4 {
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #245DB2;
+	padding-top: 15px;
+}
+
 .sponsors {
 	background-color: white;
 	padding-bottom: 0px;
 }
 
 .sponsors .container h3 {
-	padding-bottom: 5px;
+	padding-bottom: 10px;
 }
 
 .contact {
@@ -114,29 +126,100 @@ img.fade {
 	padding: 5px 20px 0px 20px;
 	display: inline-block;
 	display: inline;
-/*	UNCOMMENT FOR GRAYSCALE WITHOUT HOVER */
-/*	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
-/*	filter: gray; /* IE6-9 */
-/*	-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+/*	UNCOMMENT NEXT 3 LINES FOR GRAYSCALE WITHOUT HOVER */
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");  Firefox 3.5+ 
+	filter: gray; /* IE6-9 */
+	-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */ 
 }
 
 img.fade:hover {
 	opacity: 1.0;
-/*	UNCOMMENT FOR GRAYSCALE TO COLOR ON HOVER */
-/*	filter: none; */
-/*	-webkit-filter: grayscale(0%); */
+/*	UNCOMMENT NEXT 2 LINES FOR GRAYSCALE TO COLOR ON HOVER */
+	filter: none; 
+	-webkit-filter: grayscale(0%); 
 }
 
-#sponsor_elite, #sponsor_elite {
-	height: 200px;
+#sponsor_elite, #sponsor_bsf {
+	height: 140px;
 }
 
 #sponsor_peaks {
-	height: 130px;
+	height: 150px;
 }
 
 .sponsors {
 	text-align: center; /* centers logos */
+}
+
+.sponsors p {
+	text-align: left;
+	padding-bottom: 0px;
+}
+
+.sponsors #toggleText {
+	padding-top: 25px;
+}
+
+.sponsors #sponsor_table {
+	background-color: #CCCCCC;
+	padding: 20px;
+	padding-bottom: 10px;
+}
+
+.sponsors h4 {
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #245DB2;
+	padding-bottom: 10px;
+}
+
+.sponsors table, tbody {
+	border-collapse: separate;
+	border-spacing: 2px;
+	table-layout: fixed;
+	overflow-y: scroll;
+	overflow-x: scroll;
+	display: block;
+	padding-bottom: 10px;
+}
+
+.sponsors th, td {
+	border: none;
+	padding: 10px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.sponsors tr {
+	background-color: rgba(255, 255, 255, .5);
+}
+
+.sponsors .sponsor_tiers th {
+	font-size: 20px;
+	background-color: #CCCCCC;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.sponsors .sponsor_costs th {
+	font-size: 14px;
+	background-color: #CCCCCC;
+	padding-top: 0px;
+}
+
+.sponsors #table_left {
+	text-align: left;
+}
+
+.sponsors tr:hover {
+	background-color: rgba(36, 93, 178, 1);
+}
+
+.sponsors tr:hover td {
+	color: white;
 }
 
 .footer {
@@ -240,7 +323,7 @@ img.fade:hover {
 }
 
 /* MEMBERS.HTML ONLY */
-iframe, object {
+/*iframe, object {
 	height: 80%;
 	width: 100%;
 }
@@ -293,4 +376,4 @@ tr:hover {
 
 #right {
 	margin-left: calc(20% + 80px);
-}
+}*/

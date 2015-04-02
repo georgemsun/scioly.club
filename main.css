@@ -1,8 +1,7 @@
 /* BACKGROUND AND NAVIGATION */
 .jumbotron {
 	position: fixed;
-	background: url('http://media.cleveland.com/solon/photo/solon-science-olympiad-teams-win-national-championship-for-third-year-in-row-fb876b230407c493.jpg');
-	/*background: url('https://github.com/georgesun/interlakescienceolympiad/blob/gh-pages/images/background_main.jpg?raw=true');*/
+	background: url('https://github.com/georgesun/interlakescienceolympiad/blob/gh-pages/images/background_main.jpg?raw=true');
 	z-index: -1;
 	display: block;
 	width: 100%;
@@ -24,7 +23,7 @@
 }
 
 .nav a:hover {
-	color: #146314;
+	color: #245DB2;
 	text-decoration: none;
 	background-color: rgba(255, 255, 255, 0.6);
 }
@@ -73,7 +72,7 @@
 	font-weight: bold;
 	font-family: Helvetica, Arial;
 	font-size: 40px;
-	color: #146314;
+	color: #245DB2;
 }
 
 .container p {
@@ -82,7 +81,7 @@
 }
 
 .container a {
-	color: #146314;
+	color: #245DB2;
 }
 
 .about {
@@ -103,7 +102,7 @@
 	font-size: 20px;
 	font-weight: bold;
 	text-transform: uppercase;
-	color: #146314;
+	color: #245DB2;
 	padding-top: 15px;
 }
 
@@ -175,7 +174,7 @@ img.fade:hover {
 	font-size: 20px;
 	font-weight: bold;
 	text-transform: uppercase;
-	color: #146314;
+	color: #245DB2;
 	padding-bottom: 10px;
 }
 
@@ -267,7 +266,7 @@ img.fade:hover {
 	font-weight: bold;
 	font-family: Helvetica, Arial;
 	font-size: 40px;
-	color: #146314;
+	color: #245DB2;
 }
 
 .login input{
@@ -292,7 +291,7 @@ img.fade:hover {
 	background: #fff;
 	border: 1px solid #fff;
 	cursor: pointer;
-	color: #146314;
+	color: #245DB2;
 	padding: 6px;
 	margin-top: 10px;
 }
@@ -332,7 +331,6 @@ img.fade:hover {
 	height: 80%;
 	width: 100%;
 }
-
 table, tbody {
 	border-collapse: separate;
 	border-spacing: 1px;
@@ -344,7 +342,6 @@ table, tbody {
 	display: block;
 	left: 252px;
 }
-
 th, td {
 	border: none;
 	background-color: rgba(255, 255, 255, .8);
@@ -352,15 +349,12 @@ th, td {
 	padding: 5px;
 	text-align: center;
 }
-
 th {
 	background-color: rgba(255, 255, 255, 1);
 }
-
 tr:hover {
 	background-color: rgba(255, 255, 255, 1);
 }
-
 #left {
 	float: left;
 	position: fixed;
@@ -368,17 +362,14 @@ tr:hover {
 	width: 20%;
 	background-color: rgba(255, 255, 255, 0.6);
 }
-
 #left a {
 	padding: 10px 10px;
 	background-color: rgba(255, 255, 255, 0.6);
 }
-
 #left a:hover {
 	background-color: rgba(255, 255, 255, 0.9);
 	text-decoration: none;
 }
-
 #right {
 	margin-left: calc(20% + 80px);
 }*/

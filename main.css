@@ -44,8 +44,8 @@
 
 .tagline h1 {
 	position: relative;
-	top: 35%;
-	transform: translateY(-35%);
+	top: 25%; /*35%*/
+	transform: translateY(-25%); /*-35%*/
 	width: 900px;
 	padding: 20px 10px 20px 10px;
 	margin-left: auto;
@@ -61,6 +61,31 @@
 
 .tagline h1:hover {
 	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.tagline h2 {
+	position: relative;
+	top: 25%;
+	transform: translateY(-25%);
+	width: 900px;
+	padding: 20px 10px 20px 10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.6);
+	font-family: 'Century Gothic', Corbel, Arial;
+	font-size: 25px;
+	color: #333333;
+}
+
+.tagline h2:hover {
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.tagline .time {
+	color: #245DB2;
 }
 
 .container h3 {	

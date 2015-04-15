@@ -131,6 +131,15 @@
 	padding-top: 15px;
 }
 
+.calendar {
+	background-color: white;
+	padding-bottom:;
+}
+
+.calendar h3 {
+	padding-bottom: 0px;
+}
+
 .sponsors {
 	background-color: white;
 	padding-bottom: 0px;
@@ -143,10 +152,6 @@
 .contact {
 	background-color: white;
 	padding-bottom: 30px;
-}
-
-.space {
-	height: 0%;
 }
 
 img.fade {
@@ -256,18 +261,18 @@ img.fade:hover {
 	/*background-color: rgba(255, 255, 255, 0.7);*/
 }
 
-/*.footer .container p {*/
-/*	top: 15px;*/
-/*	transform: translateY(15px);*/
-/*	text-align: right;*/
-/*	padding-bottom: 0px;*/
-/*	font-family: Helvetica, Arial;*/
-/*	font-size: 14px;*/
-/*	color: grey;*/
-/*}*/
+/*.footer .container p {
+	top: 15px;
+	transform: translateY(15px);
+	text-align: right;
+	padding-bottom: 0px;
+	font-family: Helvetica, Arial;
+	font-size: 14px;
+	color: grey;
+}*/
 
 /* LOGIN.HTML ONLY */
-.login {
+/*.login {
 	position: fixed;
 	margin: 0 auto;
 	text-align: center;
@@ -349,7 +354,7 @@ img.fade:hover {
 
 ::-moz-input-placeholder{
    color: rgba(255,255,255,0.6);
-}
+}*/
 
 /* MEMBERS.HTML ONLY */
 /*iframe, object {

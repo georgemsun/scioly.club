@@ -1,7 +1,7 @@
 /* BACKGROUND AND NAVIGATION */
 .jumbotron {
 	position: fixed;
-	background: url('https://github.com/georgesun/interlakescienceolympiad/blob/gh-pages/images/background_main.jpg?raw=true');
+	background: url('https://github.com/georgesun/interlakescienceolympiad/blob/gh-pages/images/background_circuit.jpg?raw=true');
 	z-index: -1;
 	display: block;
 	width: 100%;
@@ -133,7 +133,7 @@
 
 .calendar {
 	background-color: white;
-	padding-bottom:;
+	padding-bottom: 10px;
 }
 
 .calendar h3 {

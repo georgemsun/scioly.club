@@ -1,3 +1,35 @@
+#positions, #running, #voting, #timeline, #application {
+	background-color: white;
+}
+
+#positions, #running, #voting, #timeline, #application li, a {
+	font-size: 18px;
+}
+
+#application {
+	padding-bottom: 40px;
+}
+
+.listhead {
+	color: #245DB2;
+	font-weight: bold;
+}
+
+#timeline table {
+	font-size: 18px;
+	width: 100%;
+}
+
+#timeline td {
+	background-color: #E0E0E0;
+	text-align: left;
+}
+
+#timeline td:hover {
+	background-color: rgba(36, 93, 178, 1);
+	color: white;
+}
+
 /* BACKGROUND AND NAVIGATION */
 .jumbotron {
 	position: fixed;

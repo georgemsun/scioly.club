@@ -2,7 +2,7 @@
 	background-color: white;
 }
 
-#positions, #running, #voting, #timeline, #application li, a {
+#positions, #running, #voting, #timeline, #application li, a, p {
 	font-size: 18px;
 }
 

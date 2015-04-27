@@ -47,6 +47,10 @@
 	width: 200px;
 }
 
+#candidate-photos:hover {
+	opacity: 0.5;
+}
+
 /*ELECTIONS.HTML CSS*/
 #positions, #running, #voting, #timeline, #application {
 	background-color: white;

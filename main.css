@@ -44,11 +44,12 @@
 }
 
 #candidate-photos {
-	width: 200px;
+	width: 150px;
 }
 
 #candidate-photos:hover {
-	opacity: 0.5;
+	opacity: 0.8;
+	width: 150px;
 }
 
 /*ELECTIONS.HTML CSS*/

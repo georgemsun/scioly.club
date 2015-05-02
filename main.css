@@ -40,6 +40,39 @@
 	padding-bottom: 0px;
 }
 
+
+.container h3 {	
+	position: relative;
+	top: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+	font-weight: bold;
+	font-family: Helvetica, Arial;
+	font-size: 40px;
+	color: #245DB2;
+}
+
+.container h4 {	
+	position: relative;
+	top: 20px;
+	text-align: left;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+	font-weight: bold;
+	font-family: Helvetica, Arial;
+	font-size: 28px;
+	color: #245DB2;
+}
+
+.container p {
+	font-size: 18px;
+	padding-bottom: 0px;
+}
+
+.container a {
+	color: #245DB2;
+}
 /* BACKGROUND AND NAVIGATION END */
 
 /* INDEX.HTML ONLY */
@@ -87,43 +120,6 @@
 
 .tagline h2:hover {
 	background-color: rgba(255, 255, 255, 0.8);
-}
-
-.tagline .time {
-	color: #245DB2;
-}
-
-.container h3 {	
-	position: relative;
-	top: 10px;
-	text-align: center;
-	text-transform: uppercase;
-	padding-bottom: 15px;
-	font-weight: bold;
-	font-family: Helvetica, Arial;
-	font-size: 40px;
-	color: #245DB2;
-}
-
-.container h4 {	
-	position: relative;
-	top: 20px;
-	text-align: left;
-	text-transform: uppercase;
-	padding-bottom: 15px;
-	font-weight: bold;
-	font-family: Helvetica, Arial;
-	font-size: 28px;
-	color: #245DB2;
-}
-
-.container p {
-	font-size: 18px;
-	padding-bottom: 0px;
-}
-
-.container a {
-	color: #245DB2;
 }
 
 .about {
@@ -367,6 +363,24 @@ img.fade:hover {
 #timeline td:hover {
 	background-color: rgba(36, 93, 178, 1);
 	color: white;
+}
+
+/*RANDOM.HTML CSS*/
+.card {
+	border-radius: 10px;
+	height: 100px;
+	width: 160px;
+	padding: 20px;
+	background-color: #245DB2;
+	border: 3px solid #E0E0E0;
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.card p {
+	text-align: center;
+	vertical-align: middle;
 }
 
 /* LOGIN.HTML ONLY */

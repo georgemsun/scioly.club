@@ -337,6 +337,36 @@ img.fade:hover {
 	opacity: 0.8;
 }
 
+/*HISTORY.HTML CSS*/
+#event-rules {
+	padding-bottom: 40px;
+	background-color: white;
+}
+
+#event-rules table {
+	font-size: 18px;
+	width: 100%;
+}
+
+#event-rules td {
+	background-color: #E0E0E0;
+	text-align: left;
+}
+
+#event-rules td:hover {
+	background-color: rgba(36, 93, 178, 1);
+	color: white;
+}
+
+#event-rules td:hover a {
+	text-decoration: none;
+	color: white;
+}
+
+#event-rules img {
+	height: 20px;
+}
+
 /*ELECTIONS.HTML CSS*/
 #positions, #running, #voting, #timeline, #application {
 	background-color: white;

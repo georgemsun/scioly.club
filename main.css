@@ -339,6 +339,7 @@ img.fade:hover {
 
 /*HISTORY.HTML CSS*/
 #event-rules {
+	padding-top: 40px;
 	padding-bottom: 40px;
 	background-color: white;
 }

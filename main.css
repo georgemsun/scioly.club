@@ -1,4 +1,9 @@
+
 /* BACKGROUND AND NAVIGATION */
+body {
+	font-family: Helvetica, Arial;
+}
+
 .jumbotron {
 	position: fixed;
 	background: url('https://github.com/georgesun/interlakescienceolympiad/blob/gh-pages/images/background_circuit.jpg?raw=true');
@@ -16,7 +21,6 @@
 	position: static;
 	color: #ffffff;
 	font-size: 16px;
-	font-family: Helvetica, Arial;
 	font-weight: bold;
 	padding: 10px 10px;
 	text-transform: uppercase;
@@ -36,11 +40,6 @@
 	z-index: 1;
 }
 
-.nav {
-	padding-bottom: 0px;
-}
-
-
 .container h3 {	
 	position: relative;
 	top: 10px;
@@ -48,26 +47,12 @@
 	text-transform: uppercase;
 	padding-bottom: 15px;
 	font-weight: bold;
-	font-family: Helvetica, Arial;
 	font-size: 40px;
-	color: #245DB2;
-}
-
-.container h4 {	
-	position: relative;
-	top: 20px;
-	text-align: left;
-	text-transform: uppercase;
-	padding-bottom: 15px;
-	font-weight: bold;
-	font-family: Helvetica, Arial;
-	font-size: 28px;
 	color: #245DB2;
 }
 
 .container p {
 	font-size: 18px;
-	padding-bottom: 0px;
 }
 
 .container a {
@@ -124,16 +109,10 @@
 
 .about {
 	background-color: white;
-	padding-bottom: 0px;
 }
 
 .news {
 	background-color: white;
-	padding-bottom: 0px;
-}
-
-.news h3 {
-	padding-bottom: 0px;
 }
 
 .news h4 {
@@ -149,13 +128,8 @@
 	padding-bottom: 10px;
 }
 
-.calendar h3 {
-	padding-bottom: 0px;
-}
-
 .sponsors {
 	background-color: white;
-	padding-bottom: 0px;
 }
 
 .sponsors .container h3 {
@@ -200,7 +174,6 @@ img.fade:hover {
 
 .sponsors p {
 	text-align: left;
-	padding-bottom: 0px;
 }
 
 .sponsors #toggleText {
@@ -218,6 +191,7 @@ img.fade:hover {
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #245DB2;
+	text-align: center;
 	padding-bottom: 10px;
 }
 
@@ -245,8 +219,6 @@ img.fade:hover {
 .sponsors .sponsor_tiers th {
 	font-size: 20px;
 	background-color: #CCCCCC;
-	padding-top: 0px;
-	padding-bottom: 0px;
 	padding-left: 30px;
 	padding-right: 30px;
 }
@@ -254,7 +226,6 @@ img.fade:hover {
 .sponsors .sponsor_costs th {
 	font-size: 14px;
 	background-color: #CCCCCC;
-	padding-top: 0px;
 }
 
 .sponsors #table_left {
@@ -278,8 +249,6 @@ img.fade:hover {
 	top: 15px;
 	transform: translateY(15px);
 	text-align: right;
-	padding-bottom: 0px;
-	font-family: Helvetica, Arial;
 	font-size: 14px;
 	color: grey;
 }*/
@@ -437,7 +406,6 @@ img.fade:hover {
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-family: Helvetica, Arial;
 	font-size: 40px;
 	color: #245DB2;
 }

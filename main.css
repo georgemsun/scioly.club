@@ -130,15 +130,15 @@ body {
 
 .sponsors {
 	background-color: white;
+	text-align: center; /* centers logos */
 }
 
-.sponsors .container h3 {
+.sponsors p {
+	text-align: left;
+}
+
+.sponsors h3 {
 	padding-bottom: 10px;
-}
-
-.contact {
-	background-color: white;
-	padding-bottom: 30px;
 }
 
 img.fade {
@@ -164,16 +164,12 @@ img.fade:hover {
 	height: 140px;
 }
 
+#sponsor_customink, #sponsor_servocity, #sponsor_3dhubs {
+	height: 90px;
+}
+
 #sponsor_peaks {
-	height: 150px;
-}
-
-.sponsors {
-	text-align: center; /* centers logos */
-}
-
-.sponsors p {
-	text-align: left;
+	height: 120px;
 }
 
 .sponsors #toggleText {
@@ -221,11 +217,13 @@ img.fade:hover {
 	background-color: #CCCCCC;
 	padding-left: 30px;
 	padding-right: 30px;
+	padding-bottom: 0px;
 }
 
 .sponsors .sponsor_costs th {
 	font-size: 14px;
 	background-color: #CCCCCC;
+	padding-top: 0px;
 }
 
 .sponsors #table_left {
@@ -238,6 +236,11 @@ img.fade:hover {
 
 .sponsors tr:hover td {
 	color: white;
+}
+
+.contact {
+	background-color: white;
+	padding-bottom: 30px;
 }
 
 .footer {
@@ -253,7 +256,7 @@ img.fade:hover {
 	color: grey;
 }*/
 
-/*PAGE CSS*/
+/* PAGE CSS */
 .tagline-title {
 	margin-top: 10px;
 	margin-bottom: 40px;
@@ -283,7 +286,7 @@ img.fade:hover {
 	font-weight: bold;
 }
 
-/*CANDIDATES.HTML CSS*/
+/* CANDIDATES.HTML CSS */
 #candidates {
 	background-color: white;
 	padding-bottom: 40px;
@@ -306,7 +309,7 @@ img.fade:hover {
 	opacity: 0.8;
 }
 
-/*HISTORY.HTML CSS*/
+/* RULES.HTML CSS */
 #event-rules {
 	padding-top: 40px;
 	padding-bottom: 40px;
@@ -337,7 +340,7 @@ img.fade:hover {
 	height: 20px;
 }
 
-/*ELECTIONS.HTML CSS*/
+/* ELECTIONS.HTML CSS */
 #positions, #running, #voting, #timeline, #application {
 	background-color: white;
 }
@@ -364,153 +367,3 @@ img.fade:hover {
 	background-color: rgba(36, 93, 178, 1);
 	color: white;
 }
-
-/*RANDOM.HTML CSS*/
-.card {
-	border-radius: 10px;
-	height: 100px;
-	width: 160px;
-	padding: 20px;
-	background-color: #245DB2;
-	border: 3px solid #E0E0E0;
-	display: inline-block;
-	margin-right: 10px;
-	margin-bottom: 10px;
-}
-
-.card p {
-	text-align: center;
-	vertical-align: middle;
-}
-
-/* LOGIN.HTML ONLY */
-/*.login {
-	position: fixed;
-	margin: 0 auto;
-	text-align: center;
-	top: 25%;
-	width: 100%;
-}
-
-.login .container {
-	background-color: rgba(255, 255, 255, 0.6);
-	margin-left: auto;
-	margin-right: auto;
-	width: 500px;
-	height: 300px;
-}
-
-.login .container h3 {
-	position: relative;
-	top: 15px;
-	text-align: center;
-	text-transform: uppercase;
-	font-weight: bold;
-	font-size: 40px;
-	color: #245DB2;
-}
-
-.login input{
-	width: 350px;
-	height: 45px;
-	background: transparent;
-	border: 1px solid rgba(255, 255, 255, 0.6);
-	border-radius: 2px;
-	color: #fff;
-	font-family: 'Century Gothic', Corbel, Arial;
-	font-size: 18px;
-	font-weight: 400;
-	padding: 4px;
-	margin-top: 25px;
-}
-
-.login input[type=password]{
-	margin-top: 10px;
-}
-
-.login input[type=button]{
-	background: #fff;
-	border: 1px solid #fff;
-	cursor: pointer;
-	color: #245DB2;
-	padding: 6px;
-	margin-top: 10px;
-}
-
-.login input[type=button]:hover{
-	opacity: 0.8;
-}
-
-.login input[type=button]:active{
-	opacity: 0.6;
-}
-
-.login input[type=text]:focus{
-	outline: none;
-	border: 1px solid rgba(255 , 255, 255, 0.9);
-}
-
-.login input[type=password]:focus{
-	outline: none;
-	border: 1px solid rgba(255, 255, 255, 0.9);
-}
-
-.login input[type=button]:focus{
-	outline: none;
-}
-
-::-webkit-input-placeholder{
-   color: rgba(255,255,255,0.6);
-}
-
-::-moz-input-placeholder{
-   color: rgba(255,255,255,0.6);
-}*/
-
-/* MEMBERS.HTML ONLY */
-/*iframe, object {
-	height: 80%;
-	width: 100%;
-}
-table, tbody {
-	border-collapse: separate;
-	border-spacing: 1px;
-	table-layout: fixed;
-	height: 80%;
-	width: 100%;
-	overflow-y: scroll;
-	overflow-x: scroll;
-	display: block;
-	left: 252px;
-}
-th, td {
-	border: none;
-	background-color: rgba(255, 255, 255, .8);
-	font-size: 12px;
-	padding: 5px;
-	text-align: center;
-}
-th {
-	background-color: rgba(255, 255, 255, 1);
-}
-tr:hover {
-	background-color: rgba(255, 255, 255, 1);
-}
-#left {
-	float: left;
-	position: fixed;
-	height: 80%;
-	width: 20%;
-	background-color: rgba(255, 255, 255, 0.6);
-}
-#left a {
-	padding: 10px 10px;
-	background-color: rgba(255, 255, 255, 0.6);
-}
-#left a:hover {
-	background-color: rgba(255, 255, 255, 0.9);
-	text-decoration: none;
-}
-#right {
-	margin-left: calc(20% + 80px);
-}*/

@@ -321,24 +321,62 @@ img.fade:hover {
 	width: 100%;
 }
 
-#event-rules td {
+#event-rules :first-child {
+	text-align: left;
+}
+
+#event-rules .head {
+	font-weight: bold;
+}
+
+#event-rules td, #event-rules .subhead td {
 	background-color: #E0E0E0;
-	min-width: 50px;
 	text-align: center;
+	min-width: 50px;
+}
+
+#event-rules .subhead td {
+	min-width: 900px;
 }
 
 #event-rules td:hover {
-	background-color: rgba(36, 93, 178, 1);
-	color: white;
+	/*background-color: rgba(36, 93, 178, 1);*/
+	/*color: white;*/
 }
 
 #event-rules td:hover a {
 	text-decoration: none;
-	color: white;
+	/*color: white;*/
+	font-weight: bold;
 }
 
-#event-rules img {
-	height: 20px;
+input {
+	outline: none;
+	border: 1px solid rgba(36, 93, 178, 0.5);
+	border-radius: 3px;
+	background-color: rgba(255,255,255,0.6);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	height: 30px;
+	padding: 10px;
+	vertical-align: bottom;
+	margin-bottom: 5px;
+	cursor: text;
+	width: 100%;
+}	
+input[type=text]:focus {
+	outline: none;
+	border: 1px solid rgba(36, 93, 178, 1);
+	background-color: rgba(255,255,255,0.8);
+	/*font-weight: bold;*/
+}
+::-webkit-input-placeholder {
+	color: rgba(36, 93, 178, 0.5);
+	font-weight: normal;
+}
+::-moz-input-placeholder {
+	color: rgba(36, 93, 178, 0.5);
+	font-weight: normal;
 }
 
 /* ELECTIONS.HTML CSS */

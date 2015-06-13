@@ -6,7 +6,7 @@ body {
 
 .jumbotron {
 	position: fixed;
-	background: url('https://github.com/georgesun/interlakescienceolympiad/blob/gh-pages/images/background_circuit.jpg?raw=true');
+	background: url(images/background_circuit.jpg);
 	z-index: -1;
 	display: block;
 	width: 100%;
@@ -258,13 +258,12 @@ img.fade:hover {
 
 /* PAGE CSS */
 .tagline-title {
-	margin-top: 10px;
-	margin-bottom: 40px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .tagline-title h1 {
 	position: relative;
-	/*width: 45%;*/
 	padding: 20px 10px 20px 10px;
 	margin-left: auto;
 	margin-right: auto;
@@ -310,6 +309,7 @@ img.fade:hover {
 }
 
 /* RULES.HTML CSS */
+
 #event-rules {
 	padding-top: 40px;
 	padding-bottom: 40px;

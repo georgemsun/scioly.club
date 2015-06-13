@@ -323,7 +323,8 @@ img.fade:hover {
 
 #event-rules td {
 	background-color: #E0E0E0;
-	text-align: left;
+	min-width: 50px;
+	text-align: center;
 }
 
 #event-rules td:hover {

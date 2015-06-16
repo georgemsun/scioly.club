@@ -4,30 +4,34 @@
 
 		<meta name="google-site-verification" content="0wCiNnQMUBwR78oJJYGrxM4q6R_3UoHOzVk4X7pnf_A" />
 
+		<link rel="stylesheet" href="main.css">
 		<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
 		<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-
-		<link rel="stylesheet" href="main.css">
+		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/smoothscroll.js"></script>
 
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$('#search-name').keyup(function() {
-				_this = this;
-				$.each($('#table').find('tr:not(.head, .subhead)'), function() {
-				console.log($(this).text());
-				if($(this).text().toLowerCase().indexOf($(_this).val().toLowerCase()) === -1)
-					$(this).hide();
-				else
-					$(this).show();
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#search-name').keyup(function() {
+					_this = this;
+					$.each($('#table').find('tr:not(.head, .subhead)'), function() {
+					console.log($(this).text());
+					if($(this).text().toLowerCase().indexOf($(_this).val().toLowerCase()) === -1)
+						$(this).hide();
+					else
+						$(this).show();
+					});
+				});
+				$(document).keyup(.keyup(function(e) {
+					if (e.keyCode == 27) {
+						$(input).val('');
+					}
+				});
+				$(document).click(function() {
+					$('a').css("text-decoration", "none");
 				});
 			});
-			$(document).click(function() {
-				$('a').css("text-decoration", "none");
-			});
-		});
-	</script>
+		</script>
 
 		<!--TAB LOGO-->
 		<link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-touch-icon-57x57.png">

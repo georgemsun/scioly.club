@@ -2,14 +2,12 @@
 	<head>
 		<title>Event Rules | IHS2O</title>
 
-		<meta name="google-site-verification" content="0wCiNnQMUBwR78oJJYGrxM4q6R_3UoHOzVk4X7pnf_A" />
-
 		<link rel="stylesheet" href="main.css">
 		<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
 		<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/smoothscroll.js"></script>
-
+		
 		<script type="text/javascript">
 			$(document).ready(function() {
 				$('#search-name').keyup(function() {
@@ -22,10 +20,17 @@
 						$(this).show();
 					});
 				});
-				$(document).keyup(.keyup(function(e) {
+				$(document).keyup(function(e) {
 					if (e.keyCode == 27) {
-						$(input).val('');
+						$('input').val('');
 					}
+					$.each($('#table').find('tr:not(.head, .subhead)'), function() {
+					console.log($(this).text());
+					if($(this).text().toLowerCase().indexOf($(_this).val().toLowerCase()) === -1)
+						$(this).hide();
+					else
+						$(this).show();
+					});
 				});
 				$(document).click(function() {
 					$('a').css("text-decoration", "none");

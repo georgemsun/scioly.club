@@ -319,6 +319,7 @@ img.fade:hover {
 #event-rules table {
 	font-size: 18px;
 	width: 100%;
+	margin-top: 10px;
 }
 
 #event-rules :first-child {
@@ -333,6 +334,7 @@ img.fade:hover {
 	background-color: #E0E0E0;
 	text-align: center;
 	min-width: 50px;
+	padding: 5px;
 }
 
 #event-rules .subhead td {

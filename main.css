@@ -334,22 +334,16 @@ img.fade:hover {
 	background-color: #E0E0E0;
 	text-align: center;
 	min-width: 50px;
-	padding: 5px;
+	padding: 6px;
 }
 
 #event-rules .subhead td {
 	min-width: 900px;
 }
 
-#event-rules td:hover {
-	/*background-color: rgba(36, 93, 178, 1);*/
-	/*color: white;*/
-}
-
 #event-rules td:hover a {
 	text-decoration: none;
-	/*color: white;*/
-	font-weight: bold;
+	/*font-weight: bold;*/
 }
 
 input {

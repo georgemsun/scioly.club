@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<script type="text/javascript" src="jquery.min.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<style>
+			html, body {
+				margin: 0;
+				padding: 0;
+				font-family: 'Open Sans', sans-serif;
+			}
+			p {
+				text-align: center;
+			}
+			img {
+				height: 30%;
+				position: absolute;
+				bottom: 100px;
+			}
+			.text {
+				font-size: 25px;
+				font-weight: bold;
+				text-align: center;
+				background-color: rgba(255,255,255,0.5);
+				position: absolute;
+				bottom: 0px;
+				width: 100%;
+				padding: 30px;
+			}
+			.jumbotron {
+				background: url('http://www.landscape-photo.net/albums/Paris-urban-landscape-cityscape/grassy-area-in-paris.jpg');
+				/*opacity: 0.5;*/
+				width: 100%;
+				height: 100%;
+				z-index: -1;
+				display: block;
+				position: fixed;
+				webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+			}
+		</style>
+
+		<div class="jumbotron"></div>
+		<script type="text/javascript">
+			var opened = new Date();
+			
+			var _second = 1000;
+			var _minute = _second * 60;
+			var _hour = _minute * 60;
+			var _day = _hour * 24;
+			var timer;
+
+			function showRemaining() {
+				var now = new Date();
+				var distance = now - opened;
+				if (distance < 0) {
+					clearInterval(timer);
+					document.getElementById('countdown').innerHTML = '0 days, 0 hours, 0 minutes, and 0 seconds';
+					return;
+				}
+				var days = Math.floor(distance / _day);
+				var hours = Math.floor((distance % _day) / _hour);
+				var minutes = Math.floor((distance % _hour) / _minute);
+				var seconds = Math.floor((distance % _minute) / _second);
+
+				document.getElementById('countdown').innerHTML = '<span class="time">' + days + '</span> days, ';
+				document.getElementById('countdown').innerHTML += '<span class="time">' + hours + '</span> hours, ';
+				document.getElementById('countdown').innerHTML += '<span class="time">' + minutes + '</span> minutes, and ';
+				document.getElementById('countdown').innerHTML += '<span class="time">' + seconds + '</span> seconds';
+			}
+			timer = setInterval(showRemaining, 1000);
+		</script>
+		<p><img src="http://www.scioly.org/phpBB3/download/file.php?avatar=22093_1416980756.gif"></p>
+		<p class="text">You have been watching a bernard for <span id="countdown">0 days, 0 hours, 0 minutes, and 0 seconds</span>.</p>
+	</body>
+</html>

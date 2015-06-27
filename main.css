@@ -1,7 +1,8 @@
-
 /* BACKGROUND AND NAVIGATION */
 body {
 	font-family: Helvetica, Arial;
+	padding: 0;
+	margin: 0;
 }
 
 .jumbotron {

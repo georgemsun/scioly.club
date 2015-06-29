@@ -365,7 +365,7 @@ input {
 	cursor: text;
 	width: 100%;
 }	
-input[type=text]:focus {
+input[type=text]:focus, input[type=password]:focus {
 	outline: none;
 	border: 1px solid rgba(36, 93, 178, 1);
 	background-color: rgba(255,255,255,0.8);

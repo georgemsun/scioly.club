@@ -244,6 +244,10 @@ img.fade:hover {
 	padding-bottom: 30px;
 }
 
+.events {
+	background-color: white;
+}
+
 .footer {
 	padding-top: 20px;
 	/*background-color: rgba(255, 255, 255, 0.7);*/

@@ -8,6 +8,7 @@ $(document).ready(function() {
 	var users = [
 		["interlakescienceolympiad@gmail.com", "1stplace"],
 		["gmsun@uw.edu", "bernard"],
+		["magicmaster97@gmail.com", "magicalforest"],
 	];
 
 	$('#password').keyup(function() {

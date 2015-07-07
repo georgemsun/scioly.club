@@ -9,8 +9,7 @@ $(document).ready(function() {
 		["interlakescienceolympiad@gmail.com", "1stplace"],
 		["gmsun@uw.edu", "bernard"],
 		["magicmaster97@gmail.com", "magicalforest"],
-		["thscioly@gmail.com", "sangiotis#1"],
-		["nelsonliu2009@gmail.com", "nfliu"]
+		["thscioly@gmail.com", "sangiotis#1"]
 	];
 
 	$('#password').keyup(function() {

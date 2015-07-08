@@ -9,6 +9,7 @@ $(document).ready(function() {
 		["interlakescienceolympiad@gmail.com", "1stplace"],
 		["gmsun@uw.edu", "bernard"],
 		["magicmaster97@gmail.com", "magicalforest"],
+		["nfliu@uw.edu", "balsa"],
 		["thscioly@gmail.com", "sangiotis#1"],
 		["guest", "162452498008"]
 	];

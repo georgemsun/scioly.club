@@ -244,7 +244,7 @@ img.fade:hover {
 	padding-bottom: 30px;
 }
 
-.events {
+.events, .welcome {
 	background-color: white;
 }
 

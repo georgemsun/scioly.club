@@ -7,7 +7,7 @@ body {
 
 .jumbotron {
 	position: fixed;
-	background: url(images/background_circuit_america.jpg);
+	background: url(images/background_circuit.jpg);
 	z-index: -1;
 	display: block;
 	width: 100%;
@@ -202,7 +202,7 @@ img.fade:hover {
 	padding-bottom: 10px;
 }
 
-.sponsors th, td {
+.sponsors th, .sponsors td {
 	border: none;
 	padding: 10px;
 	font-size: 16px;

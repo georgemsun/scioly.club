@@ -25,6 +25,8 @@ body {
 	font-weight: bold;
 	padding: 10px 10px;
 	text-transform: uppercase;
+	transition: background-color 0.3s;
+	transition: color 0.3s;
 }
 
 .nav a:hover {
@@ -81,6 +83,7 @@ body {
 	font-family: 'Century Gothic', Corbel, Arial;
 	font-size: 56px;
 	color: black;
+	transition: background-color 0.5s;
 }
 
 .tagline h1:hover {
@@ -102,6 +105,7 @@ body {
 	font-family: 'Century Gothic', Corbel, Arial;
 	font-size: 23px;
 	color: #333333;
+	transition: background-color 0.5s;
 }
 
 .tagline h2:hover {

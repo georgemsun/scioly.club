@@ -7,7 +7,8 @@
 		<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/smoothscroll.js"></script>
-		
+		<script src="js/rules.js"></script>
+
 		<script type="text/javascript">
 			$(document).ready(function() {
 				$('#search-name').keyup(function() {
@@ -61,6 +62,38 @@
 		<!-- <div class="jumbotron">
 			<div class="background"></div>
 		</div> -->
+
+		<div id="about">
+			<h3 style="margin-top: 30px">Member Login</h3>
+			<input type="text" placeholder="Email" id="username" style="margin-top: 10px; margin-bottom: 10px">
+			<input type="password" placeholder="Password" id="password">
+			<p style="margin-top: 15px; font-size: 12px">Forgot password or want to change your password? Email <a href="mailto:interlakescienceolympiad@gmail.com" style="font-size: 12px">interlakescienceolympiad@gmail.com</a>.</p>
+		</div>
+
+		<div id="fade"></div>
+
+		<style>
+			#about {
+				padding: 10px 40px 30px 40px;
+				width: 500px;
+				background-color: white;
+				position: fixed;
+				z-index: 2;
+				right: 0;
+			    left: 0;
+			    margin-right: auto;
+			    margin-left: auto;
+				top: 50%;
+				margin-top: -190px; /*-175px*/
+			}
+			#fade {
+				width: 100%;
+				height: 100%;
+				background-color: rgba(0,0,0,0.3);
+				position: fixed;
+				z-index: 1;
+			}
+		</style>
 
 		<div id="event-rules">
 			<div class="container">

@@ -1,0 +1,84 @@
+@font-face {
+	font-family: 'Nexa Bold';
+	src: url("fonts/nexa bold.otf") format("opentype");
+}
+html,
+body {
+	font-family: 'Helvetica', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 50px;
+}
+h1 {
+	color: #1e7bb8;
+	font-family: 'Nexa Bold', Arial, sans-serif;
+	font-size: 42px;
+	margin: 0 0 10px 0;
+	text-transform: uppercase;
+}
+a {
+	color: #1e7bb8;
+	text-decoration: none;
+	transition: color 0.3s;
+}
+a:hover {
+	color: #7cbe33;
+}
+p {
+	font-size: 12px;
+	margin-top: 20px;
+}
+#login input#username,
+#login input#password,
+#rules input#search {
+	border-color: #1e7bb8;
+	border-style: none none solid none;
+	border-width: 2px;
+	font-size: 12px;
+	margin-bottom: 10px;
+	outline: none;
+	padding: 10px 0;
+	width: 100%;
+	transition: border-color 0.3s;
+}
+#login input#username:focus,
+#login input#password:focus,
+#rules input#search:focus {
+	border-color: #7cbe33;
+}
+#rules table {
+	border-collapse: collapse;
+	font-size: 12px;
+	margin-top: 10px;
+	width: 100%;
+}
+#rules table th,
+#rules table td {
+	padding: 5px 0;
+	/*border: dotted 1px black;*/
+}
+#rules table tr {
+	transition: 0.15s;
+}
+#rules table tr:not(.subhead):not(:first-child):hover {
+	color: #7cbe33;
+}
+#rules table .subhead td {
+	border-bottom: #1e7bb8 solid 1px;
+	color: #1e7bb8;
+	font-family: 'Nexa Bold';
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 20px;
+	text-transform: uppercase;
+}
+#rules table .subhead td:not(:first-child) {
+	font-family: 'Arial';
+	font-size: 12px;
+}
+#rules table td:not(:first-child) {
+	width: 40px;
+	text-align: center;
+}

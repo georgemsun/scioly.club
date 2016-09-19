@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'Nexa Bold';
-	src: url("fonts/nexa bold.otf") format("opentype");
+	src: url("../fonts/nexa bold.otf") format("opentype");
 }
 html,
 body {
-	font-family: 'Helvetica', sans-serif;
+	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
 }
@@ -68,7 +68,7 @@ p {
 #rules table .subhead td {
 	border-bottom: #1e7bb8 solid 1px;
 	color: #1e7bb8;
-	font-family: 'Nexa Bold';
+	font-family: 'Nexa Bold', Arial, sans-serif;
 	font-size: 16px;
 	font-weight: bold;
 	padding-top: 20px;

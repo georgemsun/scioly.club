@@ -1,6 +1,5 @@
 var users = [
-	["Administrator" , "admin@scioly.club", "ilovebernard"],
-	["Interlake Science Olympiad" , "interlake", "ilakescioly"],
+	["Administrator" , "admin@scioly.club", "bernard"],
 	["Guest" , "guest", "q.e-a4ZG)YAhC3Cj"],
 	["Interlake Science Olympiad", "interlakescienceolympiad@gmail.com", "ilakescioly"],
 	["George", "gmsun@uw.edu", "bernard"],

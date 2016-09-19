@@ -26,6 +26,10 @@ a {
 a:hover {
 	color: #7cbe33;
 }
+a:focus {
+	color: #7cbe33;
+	outline: none;
+}
 p {
 	font-size: 12px;
 	margin-top: 20px;

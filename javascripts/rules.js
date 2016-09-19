@@ -1,5 +1,6 @@
 var users = [
-	["Administrator" , "admin@scioly.club", "ilakescioly"],
+	["Administrator" , "admin@scioly.club", "ilovebernard"],
+	["Interlake Science Olympiad" , "interlake", "ilakescioly"],
 	["Guest" , "guest", "q.e-a4ZG)YAhC3Cj"],
 	["Interlake Science Olympiad", "interlakescienceolympiad@gmail.com", "ilakescioly"],
 	["George", "gmsun@uw.edu", "bernard"],
@@ -20,8 +21,8 @@ $(document).ready(function() {
 	$('#search').keyup(function() {
 		_this = this;
 		$.each($('#rules table').find('tr:not(.head, .subhead)'), function() {
-			console.log($(this).text());
-			if($(this).text().toLowerCase().indexOf($(_this).val().toLowerCase()) === -1 && $("<div />").append($(this).clone()).html().toLowerCase().indexOf(("\"" + $(_this).val().toLowerCase() + "\"")) === -1)
+			// console.log($(this).text());
+			if($(this).text().toLowerCase().indexOf($(_this).val().toLowerCase()) === -1 && $("<div />").append($(this).clone()).html().toLowerCase().indexOf(("\"" + $(_this).val().toLowerCase())) === -1)
 				$(this).hide();
 			else
 				$(this).show();

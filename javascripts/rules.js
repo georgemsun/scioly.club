@@ -13,7 +13,7 @@ $(document).ready(function() {
 		for(var i = 0; i < users.length; i++) {
 			if($('#username').val().toLowerCase() == users[i][1].toLowerCase() && $('#password').val() == users[i][2]) {
 				$('#login').hide();
-				$('#rules').fadeIn('medium');
+				$('#rules').show();
 			}
 		}
 	});
